@@ -10,18 +10,20 @@ sudo apt update && sudo apt upgrade -y && sudo add-apt-repository ppa:deadsnakes
 
 3. [Install NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-4. Run this Command:
+5. `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+
+6. Run this Command:
 
 ```
-cp ./.zshrc ~/ && sudo cp -r ./powerlevel10k ~/.oh-my-zsh/custom/themes/ && cp -r ./nvim ~/.config/
+cp ./.zshrc ~/ && cp -r ./nvim ~/.config/ && cp ./.p10k.zsh ~/
 ```
 
-5. Reboot terminal
+7. Reboot terminal
 
-6. `nvm install --lts`
+8. `nvm install --lts`
 
-7. `vi ~/.config/nvim/lua/user/plugins.lua`
+9. `vi ~/.config/nvim/lua/user/plugins.lua`
 
-8. `:w` to trigger plugin download/install
+10. `:w` to trigger plugin download/install
 
-9. Quit after plugins download/install
+11. Quit after plugins download/install
