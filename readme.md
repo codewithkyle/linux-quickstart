@@ -1,6 +1,6 @@
 # Linux Quick Start Guide
 
-1. Clone this repo
+1. `git clone https://github.com/codewithkyle/linux-quickstart.git`
 
 2. Run this command:
 
